@@ -62,11 +62,12 @@ function App() {
 | containerStyle | Styling The container of all radio buttons | No         | String   |
 
 2-Radio
-| Prop name | Description | isRequired | type |
-| -------------- | ------------------------------------------ | ---------- | -------- |
-| render | Render Radio Button UI | Yes | function |
-| value | The Value Of The Option | Yes | Any |
-| disableStyle | Styling The Disabled Option | No | Object |
-| isDisabled | Tell That Option Is Disabled | No | Boolean |
+
+| Prop name    | Description                  | isRequired | type     |
+| ------------ | ---------------------------- | ---------- | -------- |
+| render       | Render Radio Button UI       | Yes        | function |
+| value        | The Value Of The Option      | Yes        | Any      |
+| disableStyle | Styling The Disabled Option  | No         | Object   |
+| isDisabled   | Tell That Option Is Disabled | No         | Boolean  |
 
 ## Thank you

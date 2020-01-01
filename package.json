@@ -1,7 +1,16 @@
 {
-  "name": "react-custom-radio-button",
+  "name": "react-custom-radio-buttons",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -13,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "SET NODE_ENV=production  && mkdir dist && npx babel src/Components/CustomRadioButtons --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,5 +46,11 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1"
-  }
+  },
+  "keywords": [
+    "react",
+    "unControlled",
+    "Radio Buttons",
+    "Custom Radio Buttonss"
+  ]
 }
