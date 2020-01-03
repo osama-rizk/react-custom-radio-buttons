@@ -1,8 +1,9 @@
 # react-custom-radio-buttons
 
 It is a reactJs component which behave like a radio button ,
-Hey! Let's Make a Deal make a deal I Will be in charge of
-state and you will be in charge of rendering
+So ! Let's Make a Deal make a deal I Will be in charge of
+state and you will be in charge of rendering ,
+see the Usage Below
 
 [![npm version](https://img.shields.io/badge/npm-v1.0.1-blue)](https://www.npmjs.com/package/react-custom-radio-buttons)
 
@@ -17,7 +18,7 @@ npm install react-custom-radio-buttons --save
 
 ![Alt Text](https://s5.gifyu.com/images/custom-buttons2.gif)
 
-# Usage Example
+# Usage
 
 ```js
 import React, { useState } from "react";
