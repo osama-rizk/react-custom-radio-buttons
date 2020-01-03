@@ -4,7 +4,7 @@ It is a reactJs component which behave like a radio button ,
 Hey! Let's Make a Deal make a deal I Will be in charge of
 state and you will be in charge of rendering
 
-[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/react-custom-radio-buttons)
+[![npm version](https://img.shields.io/badge/npm-v1.0.1-blue)](https://www.npmjs.com/package/react-custom-radio-buttons)
 
 # Installation
 

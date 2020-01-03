@@ -1,6 +1,6 @@
 {
   "name": "react-custom-radio-buttons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Custom radio buttons for react applications",
   "main": "dist/index.js",
   "private": false,
