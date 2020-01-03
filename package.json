@@ -9,7 +9,12 @@
     "build": "webpack --mode production"
   },
   "keywords": [
-    "Buttons"
+    "react",
+    "Buttons",
+    "Radio Buttons",
+    "Un Controlled",
+    "radio",
+    "radio group"
   ],
   "author": "Osama Rezk",
   "bugs": {

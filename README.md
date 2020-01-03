@@ -1,5 +1,11 @@
 # react-custom-radio-buttons
 
+It is a reactJs component which behave like a radio button ,
+Hey! Let's Make a Deal make a deal I Will be in charge of
+state and you will be in charge of rendering
+
+[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/react-custom-radio-buttons)
+
 # Installation
 
 ```
@@ -14,12 +20,12 @@ npm install react-custom-radio-buttons --save
 # Usage Example
 
 ```js
-import { Radio, RadioGroup } from "react-custom-radio-buttons";
-
 import React, { useState } from "react";
+import { Radio, RadioGroup } from "react-custom-radio-buttons";
 import "./App.css";
-import { Radio, RadioGroup } from "../src/Components";
+
 const options = ["xs", "s", "m", "l", "xl", "xxl", "xxxl"];
+
 function App() {
   const [size, setSize] = useState(null);
   const onChange = option => {
@@ -49,6 +55,28 @@ function App() {
       <h1>Your Size is {size}</h1>
     </div>
   );
+}
+```
+
+app.css
+
+```css
+.App {
+  text-align: center;
+}
+.option {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.options-container {
+  display: flex;
+  flex-direction: row;
 }
 ```
 
